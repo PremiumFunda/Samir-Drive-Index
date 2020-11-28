@@ -5,7 +5,7 @@
 
 ## How to
 
-* Open https://kind-five-lime.glitch.me/ Demo is at https://td.shinobidrive.workers.dev/0:/
+* Open https://kind-five-lime.glitch.me/ Demo is at [Jana Cloud](https://janacloud.ga)
 * If you want to deploy main drive leave the option ROOT as it is.
 * If you want to deploy your Team Drive/Shared Drive/Folder then copy the ID and replace it with ROOT.
 * Eg. if you open [this shared drive](https://drive.google.com/drive/u/0/folders/0ACJgTKpEpTmHUk9PVA) 0ACJgTKpEpTmHUk9PVA is its ID.
