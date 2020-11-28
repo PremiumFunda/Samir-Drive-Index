@@ -3,6 +3,11 @@
 * Supports Both My and Team/Shared Drives.
 * Code that should be deployed is [here](https://github.com/SamirJanaOfficial/Shinobi-Drive-Index/blob/master/worker/dist/goindex.js)
 
+## Demo Sites
+
+* [Demo-Light](https://https://demo-light.shinobicloud.workers.dev/0:/)
+* [Demo-Dark](https://demo-dark.shinobicloud.workers.dev/0:/)
+
 [![Screenshot](https://raw.githubusercontent.com/SamirJanaOfficial/Samir-Drive-Index/master/images/light-screenshot2.png)](https://github.com/SamirJanaOfficial/Samir-Drive-Index)
 
 [![Screenshot](https://raw.githubusercontent.com/SamirJanaOfficial/Samir-Drive-Index/master/images/Demo-Dark2.PNG)](https://github.com/SamirJanaOfficial/Samir-Drive-Index)
