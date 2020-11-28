@@ -3,6 +3,10 @@
 * Supports Both My and Team/Shared Drives.
 * Code that should be deployed is [here](https://github.com/SamirJanaOfficial/Shinobi-Drive-Index/blob/master/worker/dist/goindex.js)
 
+[![Screenshot](https://raw.githubusercontent.com/SamirJanaOfficial/Samir-Drive-Index/master/images/light-screenshot.png)](https://github.com/SamirJanaOfficial/Samir-Drive-Index)
+
+[![Screenshot](https://raw.githubusercontent.com/SamirJanaOfficial/Samir-Drive-Index/master/images/Demo-Dark.PNG)](https://github.com/SamirJanaOfficial/Samir-Drive-Index)
+
 ## How to
 
 * Open https://kind-five-lime.glitch.me/ Demo is at [Jana Cloud](https://janacloud.ga)
