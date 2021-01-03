@@ -22,7 +22,7 @@ const authConfig = {
  "roots": [
     {
         "id": "relace-with-current-id",
-		"name": "Samir Cloud One",
+		"name": "Cloud One",
 		"user": "",
 		"pass": "",
 		"protect_file_link": false
