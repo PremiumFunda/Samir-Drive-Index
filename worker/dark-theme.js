@@ -2,9 +2,9 @@
 * A Script Redesigned by Samir Jana from GOIndex at https://github.com/SamirJanaOfficial/Samir-Drive-Index
 */
 const authConfig = {
-	"siteName": "Samir Drive Index", // Website name
-	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
-	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
+	"siteName": "Samir-Drive-Index", // Website name
+	"client_id": "202264815644.apps.googleusercontent.com",
+	"client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
 	"refresh_token": "", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format
@@ -19,13 +19,15 @@ const authConfig = {
 	 * No Basic Auth disk is required, just keep user and pass empty at the same time. (No need to set it directly)
 	 * [Note] For the disk whose id is set to the subfolder id, the search function will not be supported (it does not affect other disks).
 	 */
-	"roots": [{
-		"id": "relace-with-current-id",
+ "roots": [
+    {
+        "id": "relace-with-current-id",
 		"name": "Samir Cloud One",
 		"user": "",
 		"pass": "",
 		"protect_file_link": false
-	}],
+    }
+  ],
 	/**
 	 * The number displayed on each page of the file list page. [Recommended setting value is between 100 and 1000];
 	 * If the setting is greater than 1000, it will cause an error when requesting drive api;
@@ -59,13 +61,13 @@ const uiConfig = {
 	"dark_mode": true, // switch between light or dark themes
 	"version": "2.0.1", // don't touch this one. get latest code using generator at https://github.com/SamirJanaOfficial/Samir-Drive-Index
 	"logo_image": true, // true if you're using image link in next option.
-	"logo_link_name": "https://user-images.githubusercontent.com/64221555/94341795-f6d8e200-0029-11eb-9c81-11978ab99d9e.jpg", // if logo is true then link otherwise just text for name
+	"logo_link_name": "https://images2.alphacoders.com/100/thumb-1920-100690.jpg", // if logo is true then link otherwise just text for name
 	"contact_link": "https://www.facebook.com/imsjana/", // Link to Contact Button on Menu
 	"copyright_year": "2020", // year of copyright, can be anything like 2015 - 2020 or just 2020
-	"owner_name": "Noob Coder", // Name next to copyright
-	"owner_link": "https://github.com/SamirJanaOfficial", // link of owner github
-	"company_name": "Samir Cloud", // Name next to owner
-	"company_link": "https://t.telegram.ind.in/ShiNobiMod", // link of copyright name
+	"owner_name": "Search Google Web", // Name next to copyright
+	"owner_link": "https://www.google.com/search?q=samir-drive-index", // link of owner github
+	"company_name": "ShiNobi Cloud", // Name next to owner
+	"company_link": "https://t.telegram.ind.in/ShiNobiCloud", // link of copyright name
 	"credit": true, // Set this to true to give us credit
 };
 
@@ -107,29 +109,30 @@ var gds = [];
 
 function html(current_drive_order = 0, model = {}) {
 	return `<!DOCTYPE html>
+
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
   <meta name="robots" content="noindex" />
-  <link rel="icon" href="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index@${uiConfig.version}/images/favicon.ico">
+  <link rel="icon" href="https://raw.githubusercontent.com/SamirJanaOfficial/jscdn/main/samir.ico">
   <script>
     window.drive_names = JSON.parse('${JSON.stringify(authConfig.roots.map(it => it.name))}');
     window.MODEL = JSON.parse('${JSON.stringify(model)}');
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index@${uiConfig.version}/css/mdui-style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index/css/mdui-style.min.css">
   <script src="https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index@${uiConfig.version}/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index@${uiConfig.version}/js/app.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index@${uiConfig.version}/js/mdui.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/jscdn/stcet-forum.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>
 <body>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index@${uiConfig.version}/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index/js/bootstrap.min.js"></script>
 </html>`;
 };
 
